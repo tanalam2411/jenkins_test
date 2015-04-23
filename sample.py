@@ -9,6 +9,7 @@ class TestStringMethods(unittest.TestCase):
   def test_upper(self):
       self.assertEqual('foo'.upper(), 'FOO')
       print "New line"
+      print "New line1"
 
   def test_isupper(self):
       self.assertTrue('FOO'.isupper())
