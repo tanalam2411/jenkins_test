@@ -12,6 +12,7 @@ class TestStringMethods(unittest.TestCase):
       print "New line1"
       print "New line2"
       print "New line3"
+      print "New line4"
 
   def test_isupper(self):
       self.assertTrue('FOO'.isupper())
